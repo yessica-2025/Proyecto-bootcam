@@ -1,0 +1,93 @@
+
+#sectionuno{
+    background-image: url('../img/fondo1.png');
+    background-repeat: no-repeat;/*para que la imagen no se repita*/
+    background-size:cover ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px; 
+
+   
+}
+
+#art1{
+    background-color:rgba(0, 26, 175, 0.5) ;
+}
+
+#art2{
+    background-color:rgba(250, 168, 14, 0.918) ;
+}
+
+#art3{
+    background-color:rgba(87, 85, 88, 0.5) ;
+}
+
+#art4{
+    background-color:rgba(38, 226, 85, 0.5) ;
+}
+
+
+.art {
+    width: 15%;
+    padding: 30px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 3px solid rgb(91, 95, 102);
+    border-radius:  50px 10px 40px 5px;
+
+
+    /*border-bottom:10px solid blue ;
+    border-top:5px solid yellow ;
+    border-left:5px solid violet;
+    border-right:5px solid greenyellow ;*/
+   
+}
+.art img{
+    width: 80%;
+    height: 150PX;
+    border-radius: 50%;
+    transition:opacity 0.3s ease;
+}
+
+.art img:hover{
+    opacity: 1;
+
+}
+
+#contenedor2    {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+#img1   {
+   padding: 20px;
+    width: 600px;
+    height: 450px;
+
+}
+#p1 {
+    width: 100%;
+    margin: 50px;
+}
+#titulo1{
+    width: 50%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(184, 175, 175);
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 20px;
+}
+#titulo2 {
+    text-align: center;
+    width: 50%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(184, 175, 175);
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0 auto;
+    display: block;
+}

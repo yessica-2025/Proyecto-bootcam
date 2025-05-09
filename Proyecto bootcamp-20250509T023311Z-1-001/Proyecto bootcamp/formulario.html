@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos Históricos Energía</title>
+    <script src="/java/calculo.js" defer></script> 
+    <script src="/java/form.js" defer></script> 
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="/css/form.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="css/Proyecto1header.css">
+</head>
+<header>
+
+  <div id="contenedor1">
+       <h1>ENERGÍA RENOVABLE</h1>
+       <img id="imgc1" src="img/d_122068.png" alt="">
+  </div>
+
+  <nav>
+      <ul>
+          <li><a href="pag_principal.html">Inicio</a></li>
+
+          <li><a href="Graficas.html">Gráficas</a></li>
+      </ul>
+     </nav>
+  </header>
+
+<body>
+
+    <h1 id="h1er" class="t">Estimación: Proporción de Energía renovable</h1>
+
+
+
+    <section id="cform">
+      <div id="dimg">
+        <img id="imgf" src="img/energia-hidroelectrica.jpg" alt="Logo energía">
+      </div>
+  
+      <div id="lblinf">
+        <form action="">
+          <label for="nombre" class="titulo">Nombre</label>
+          <input type="text" id="nombre" placeholder="Nombre">
+  
+          <label for="edad">Edad</label>
+          <input type="text" id="edad" placeholder="Edad">
+  
+          <label for="consumo">Consumo de energía</label>
+          <input type="number" id="consumo" placeholder="Consumo de energía(kWh)">
+  
+          <button type="submit">Calcular porcentaje</button>  
+        </form>
+      </div>
+      <section id="re">
+
+          <img id="imgr" src="img/water_energy_icon_175796.png" alt="">
+          <p id="resultado"></p>
+      </section>
+
+
+    </section>
+
+<h1 id="h1er"   class="t">Datos históricos energía hidroeléctrica  </h1>
+
+
+ <section id="contenedortabla"></section>
+  <h2 id="sub">(Colombia 1965-2022)</h2>
+
+    <table id="tabla">
+        <thead>
+          <tr>
+            <th>Año</th>
+            <th>% Energía hidroeléctrica</th>
+          </tr>
+        </thead>
+        <tbody id="ctabla">
+
+        </tbody>
+      </table>
+    </div>       
+
+    
+</body>
+<footer>
+  <div id="contenedor1">
+    <h1>ENERGÍA RENOVABLE</h1>
+    <img id="" src="img/d_122068.png" alt="">
+</div>
+  <nav>
+    <ul>
+      <li><a href="pag_principal.html">Inicio</a></li>
+      <li><a href="https://www.kaggle.com/datasets/belayethossainds/renewable-energy-world-wide-19652022">Fuente: kaggle</a></li>
+
+
+    </ul>
+  </nav>
+</footer>
+</html>

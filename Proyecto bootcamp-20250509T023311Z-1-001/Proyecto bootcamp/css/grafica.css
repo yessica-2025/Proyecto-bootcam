@@ -1,0 +1,23 @@
+main    {
+text-align: center;
+}
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+p   {
+    width: 40%;
+}
+#grafica{
+    width: 50%;
+}
+
+h1{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(184, 175, 175);
+    font-weight: bold;
+    font-size: 40px;
+}
